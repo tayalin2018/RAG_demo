@@ -8,8 +8,6 @@ A tiny Retrieval-Augmented Generation service that indexes local `.txt` files wi
 - Latency: ~ **1.0 s**/query  
 - Example: Q “Which vector store does this demo use?” → A “The demo uses **FAISS** for vector search.”
 
-![POST /ask](assets/ask-faiss.png)
-
 **How it works (RAG in 3 steps)**  
 1) Ingest chunks + embeddings → 2) FAISS index → 3) Retrieve + LLM answer  
 Endpoints: `GET /healthz`, `POST /ask` with `{ "question": "..." }`.
@@ -21,4 +19,4 @@ Endpoints: `GET /healthz`, `POST /ask` with `{ "question": "..." }`.
 ## Quick Start 
 1) `cd 01_rag_service && python3 -m venv .venv && source .venv/bin/activate && pip install -r requirements.txt`
 2) `cp .env.example .env`  → put your `OPENAI_API_KEY=...` in `.env`
-3) `python ingest.py && uvicorn app:app --reload`  → open http://127.0.0.1:8000/docs
+3) `python ingest.py && uvicorn app:app --reload`
