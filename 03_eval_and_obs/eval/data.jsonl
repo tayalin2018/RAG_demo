@@ -1,0 +1,7 @@
+{"question":"What does RAG stand for?","answer":"RAG stands for Retrieval-Augmented Generation."}
+{"question":"Which vector store does this demo use?","answer":"The demo uses FAISS for vector search."}
+{"question":"Which framework powers the web API?","answer":"The web API is powered by FastAPI."}
+{"question":"Which endpoints does the service expose?","answer":"The service exposes two endpoints: GET /healthz and POST /ask."}
+{"question":"How many results does the retriever return by default?","answer":"The retriever returns 4 results by default."}
+{"question":"What chunk size and overlap are configured?","answer":"The chunk size is 500 with an overlap of 100."}
+

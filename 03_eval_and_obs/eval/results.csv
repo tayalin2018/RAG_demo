@@ -1,0 +1,7 @@
+id,question,pred,ref,contains,f1,latency_ms
+3a1c99a8-90c6-4e54-835a-d47cd130c9af,What does RAG stand for?,RAG stands for Retrieval-Augmented Generation.,RAG stands for Retrieval-Augmented Generation.,1,1.0,2879
+aefaa20f-68f8-41ad-b4f4-e3cb213e9859,Which vector store does this demo use?,The demo uses FAISS for vector search.,The demo uses FAISS for vector search.,1,1.0,2121
+9535f740-ff97-400a-8ce6-46417e564b48,Which framework powers the web API?,The web API is powered by FastAPI.,The web API is powered by FastAPI.,1,1.0,1744
+399917af-d688-45d7-bf4b-5388f4656bf8,Which endpoints does the service expose?,The service exposes two endpoints: GET /healthz and POST /ask.,The service exposes two endpoints: GET /healthz and POST /ask.,1,1.0,1928
+fb0645ac-0200-4154-91d4-53c86d7abbb1,How many results does the retriever return by default?,The retriever returns 4 results by default.,The retriever returns 4 results by default.,1,1.0,2229
+c2fc2123-98a5-4d7f-b3ae-421480b3b474,What chunk size and overlap are configured?,The chunk size is 500 with an overlap of 100.,The chunk size is 500 with an overlap of 100.,1,1.0,2389
