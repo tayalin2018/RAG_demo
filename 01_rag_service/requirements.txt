@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+pydantic>=2
+pydantic-settings
+python-dotenv
+langchain>=0.2.0
+langchain-openai>=0.1.0
+langchain-community>=0.2.0
+faiss-cpu
+tiktoken
+pytest

@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+01_rag_service/index/
+**/.DS_Store

@@ -1,0 +1,6 @@
+RAG stands for Retrieval-Augmented Generation.
+The demo uses FAISS for vector search.
+The web API is powered by FastAPI.
+It exposes two endpoints: GET /healthz and POST /ask.
+The retriever returns 4 results by default.
+Chunk size is 500 with overlap 100.
