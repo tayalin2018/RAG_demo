@@ -23,7 +23,7 @@ A tiny Retrieval-Augmented Generation service that indexes local `.txt` files wi
 **Extra Q&A**
 
 - **Q:** What does Schwarz IT focus on?  
-  **A:** RAG (Retrieval-Augmented Generation) and agentic automation.
+  **A:** Schwarz IT focuses on RAG (Retrieval-Augmented Generation) and agentic automation.
 
 **How it works (RAG in 3 steps)**  
 1) Ingest chunks + embeddings → 2) FAISS index → 3) Retrieve + LLM answer  
